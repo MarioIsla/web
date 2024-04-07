@@ -1,1 +1,172 @@
-# web
+<!DOCTYPE html>
+<html>
+<head>
+<title>Silent Hill 2</title>
+</head>
+<script>
+  function gracias() {alert("Gracias, lo tendre en cuenta")};
+  function test() { 
+        var p1 = prompt("Pregunta 1-¿De que pais es el videojuego Silent Hill 2?:");
+        const a1 = ["japon","Japon","Japón","japón"]
+        if (a1.includes(p1))
+        {alert("¡Correcto!")}
+        else
+        {alert("¡Incorrecto!");}
+
+       
+        var p2 = prompt("Pregunta 2-¿Que compañia publico Silent Hill 2?:")
+        const a2 = ["konami","Konami","KONAMI"]
+        if (a2.includes(p2))
+        {alert("¡Correcto!");}
+        else
+        {alert("¡Incorrecto!");}
+        
+        var p3 = prompt("Pregunta 3-¿En que año salio Silent Hill 2 en Euopa?:")
+        const a3 = ["2001","dosmil uno","dos mil uno"]
+        if (a3.includes(p3))
+        {alert("¡Correcto!");}
+        else
+        {alert("¡Incorrecto!");}
+       
+        var p4 = (prompt("Pregunta 4-¿Cual es el apellido del protagonista de Silent Hill 2?"))
+        const a4 = ["sunderland","Sunderland"]
+        if (a4.includes(p4))
+        {alert("¡Correcto!");}
+        else 
+        {alert("¡Incorrecto!");}
+        
+        var p5 = (prompt("Pregunta 5-¿Como se llama la esposa del protagonista de Silent Hill 2?:"))
+        const a5 = ["mary","Mary"]
+        if (a5.includes(p5))
+        {alert("¡Correcto!");}
+        else
+        {alert("¡Incorrecto!");}
+        
+        var puntuacion = 0
+
+        if (a1.includes(p1))
+        {var suma1 = puntuacion + 1}
+        else
+        {var suma1 = puntuacion + 0}
+
+        if (a2.includes(p2)) 
+        {var suma2 = suma1 + 1}
+        else
+        {var suma2 = suma1 + 0}
+
+        if (a3.includes(p3)) 
+        {var suma3 = suma2 + 1}
+        else
+        {var suma3 = suma2 + 0}
+
+        if (a4.includes(p4)) 
+        {var suma4 = suma3+ 1}
+        else 
+        {var suma4 = suma3 + 0}
+
+        if (a5.includes(p5)) 
+        {var suma5 = suma4 + 1}
+        else
+        {var suma5 = suma4 + 0}
+
+        alert("Tu puntuacion es :"+suma5)
+;
+}
+</script>
+
+<body>
+  <script>
+    window.onload = function() {
+  alert("Bienvenido a mi página")
+};
+  </script>
+<style> body {
+  background-image: url(images/6004798.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  }
+  </style>
+<center> 
+<style>
+  p{width: 600px;}
+  .zoom:hover{transform: scale(1.5);}
+  .zoom{transition: transform .5s;}
+</style>
+<br>
+<br>
+
+<img class="zoom" width=700px src="images/logo-silent-hill-2.png">
+
+<br>
+<br>
+<style>
+.groove {border-style: groove; border-color:white; width:300px;} 
+</style> 
+<p  style="font-family:courier;color:rgb(255, 255, 255);font-size:120%">"Me prometiste que me llevarias 
+ a silent hill, pero no lo hiciste"</p>
+<hr>
+<center>
+<h2 class=groove style=font-family:courier;color:white;font-size:140%>¿Qué es Silent Hill?</h2>
+<ins style=color:#e0ccca;><h3 sty
+  e=color:#e0ccca;font-family:courier;>Contexto</h3></ins>
+<p style=font-family:courier;color:white;text-align:center;>Silent Hill 2 es un videojuego
+  de terror del subgénero de horror de supervivencia, desarrollado por Team Silent y 
+  publicado por Konami.Fue lanzado para PlayStation 2 en los Estados Unidos el 24 de 
+  septiembre de 2001, tres días después, en Japón, y el 23 de noviembre del mismo año, 
+  en Europa.Más tarde el juego fue editado para Microsoft Windows y Xbox.Cronológicamente 
+  representa la segunda parte de la serie Silent Hill, aunque la historia de Silent Hill 2 
+  casi no está relacionada con el juego original. Cincuenta personas trabajaron en el 
+  desarrollo del videojuego durante dos años.Una versión en alta definición remasterizada 
+  de Silent Hill 2, desarrollada por Hijinx Studios, fue publicada el 20 de marzo de 2012 
+  en PlayStation 3 y Xbox.</p>
+<ins style=color:#e0ccca;><h3 style=color:#e0ccca;font-family:courier;>Sinopsis</h3></ins>
+<p style=color:white;font-family:courier;>Silent Hill 2 ocurre en un universo ficticio 
+  que se asemeja parcialmente al mundo real, donde todos los días se cruza con otro mundo 
+  alternativo, los cuales están llenos de monstruos. El protagonista es James Sunderland, 
+  quien recibe una carta de su esposa Mary, que murió algún tiempo antes de los eventos 
+  del juego. En la misma, ella le pide que vaya a la ciudad turística de Silent Hill. 
+  Al llegar a su destino, James se encuentra con una misteriosa mujer llamada María, 
+  una copia casi exacta de su esposa. Al final, se da cuenta de que parte de sus recuerdos 
+  fue un autoengaño.La jugabilidad consiste en resolver acertijos, buscar los elementos 
+  necesarios, explorar ubicaciones, confrontar al personaje principal y los monstruos.</p>
+ <center> 
+  <input type="button" value="Test de Silent Hill" name="boton1" onclick="test();"/>
+ </center> 
+
+<hr>
+<iframe  class= zoom controls width="350" height="210"  
+ source src="https://www.youtube.com/embed/tBuaZC3_P_8">
+</iframe>
+<sub><a="https://www.youtube.com/watch?v=tBuaZC3_P_8" style=color:aliceblue;><center>Imagenes reales del juego</center></a></sub>
+<hr>
+<ins style=color:#e0ccca;><h3 style=color:#e0ccca;font-family:courier;>Caracteristicas</h3></ins>
+<p style=font-family:courier;color:white;>El juego fue ampliamente aclamado por la crítica,
+  y diez publicaciones prestigiosas le dieron el puntaje más alto.La mayoría de las 
+  reseñas elogiaron la atmósfera y la profundidad de la trama, construida alrededor del 
+  amor, el odio, la muerte, el crimen y el castigo, la locura, y temas tabú como la 
+  violencia sexual y el incesto.Según algunos críticos, la banda sonora es una de las 
+  mejores en la historia de los videojuegos.Sin embargo, tuvo comentarios negativos sobre 
+  el sistema de control, el funcionamiento de la cámara virtual y la falta de lógica de 
+  los rompecabezas.La versión Silent Hill HD Collection recibió críticas mixtas, 
+  principalmente debido a numerosos defectos de sonido y visuales.Silent Hill 2 está en 
+  la lista de los mejores juegos de todos los tiempos, y también ocupa altos puestos en 
+  los conteos del género de terror.Un mes después del lanzamiento, se vendieron más de 
+  un millón de copias.</p>
+</center>
+<hr>
+<img src="images/LabyrinthMaria.jpg" style="width:450px; height:250px;">
+<hr>
+<a style=color:rgb(0,0,0); href="url">https://www.konami.com/games/eu/es/produ
+cts/silenthill2/</a>
+<audio hidden controls autoplay preload loop>
+ <source src="music/Myuu - Promise _Reprise_ (Silent Hill 2 Cover) [ No Copyright Music ].mp3" type="audio/mp3">
+</audio>
+<hr>
+¿Que te parece mi página? 
+<hr>
+Dejamelo saber:
+<input type="text" size="10" name="cuadro1" value=""><br /><br />
+<input type="button" value="Pulsa Aqui" name="escribirTexto" onclick="gracias" />
+</body>
+</html>
